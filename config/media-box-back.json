@@ -1,0 +1,52 @@
+{
+  "broker": {
+    "host": "192.168.0.3",
+    "port": 1883,
+    "state_topic": "media-box/state",
+    "client_id": "media-box-back",
+    "user_name": "media-box-ui",
+    "password": ""
+  },
+  "uds": {
+    "server_socket": "/tmp/media-box.sock",
+    "client_socket": "/tmp/mpvsocket"
+  },
+  "mpv": {
+    "power_on_path": "/home/forest/media/power.sh"
+  },
+  "logger": {
+    "level": "debug",
+    "time_field_format": "2006-01-02T15:04:05Z07:00",
+    "pretty_print": true,
+    "disable_sampling": false,
+    "redirect_std_logger": false,
+    "error_stack": true,
+    "show_caller": false
+  },
+  "channels": {
+    "/chillout_hi": {
+      "title": "Chillout",
+      "img": "https://cdn-images.audioaddict.com/0/3/3/3/b/6/0333b632ca8a69d31ca99ceea595384d.png?size=100x100"
+    },
+    "/psychill_hi": {
+      "title": "PsyChill",
+      "img": "https://cdn-images.audioaddict.com/b/4/f/e/8/7/b4fe8792728a70b0a88cca3775e5d7a0.png?size=100x100"
+    },
+    "/chillntropicalhouse_hi": {
+      "title": "Chill & Tropical House",
+      "img": "https://cdn-images.audioaddict.com/1/a/9/d/9/8/1a9d987f6ba78247848df7a09026288d.png?size=100x100"
+    },
+    "/chilledm_hi": {
+      "title": "Chill EDM",
+      "img": "https://cdn-images.audioaddict.com/a/4/5/5/a/2/a455a20c126294cf743421ee34473b1a.png?size=100x100"
+    },
+    "/chilloutdreams_hi": {
+      "title": "Chillout Dreams",
+      "img": "https://cdn-images.audioaddict.com/6/d/8/7/7/8/6d8778faec3669ec64ef6f33a447b221.png?size=100x100"
+    },
+    "/chillhop_hi": {
+      "title": "ChillHop",
+      "img": "https://cdn-images.audioaddict.com/9/e/2/3/5/1/9e23510d8ca82e1785a329e410343423.png?size=100x100"
+    }
+  }
+}
